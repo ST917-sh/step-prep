@@ -1,0 +1,9 @@
+import numpy as np
+a=np.ones((5,5))
+
+z=np.zeros((3,3))
+
+z[1,1]=9
+
+a[1:4,1:4]=z
+print(a)
