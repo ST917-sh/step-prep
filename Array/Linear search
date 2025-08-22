@@ -1,0 +1,16 @@
+# Linear Search 
+arr = [4,3,8,6,9,7]
+
+def numFind(inputArray,key):
+    for i in range(len(inputArray)):
+        if inputArray[i]== key:
+            return i 
+    return -1
+print(numFind(arr,7))
+print(numFind(arr,12))
+print(len(arr))
+
+
+
+
+
