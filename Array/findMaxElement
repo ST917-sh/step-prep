@@ -1,0 +1,12 @@
+#Finding Maximum number 
+arr=[1,2,3,5,4]
+import sys
+
+def findMaxElement(inputArray):
+    MaxElement= -sys.maxsize
+    for i in range(len(inputArray)):
+        if inputArray[i] > MaxElement:
+            MaxElement=inputArray[i]
+    return MaxElement
+print(findMaxElement(arr))
+        
